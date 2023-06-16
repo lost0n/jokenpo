@@ -46,15 +46,15 @@ function papel() {
 function tesoura() {
     let num = Math.floor(Math.random() * (4 - 1) + 1);
     if (num === 1) {
-        res.innerHTML = 'O computador <br> escolheu PEDRA, <br> você perdeu!'
+        res.innerHTML = 'O computador escolheu PEDRA, você perdeu!'
         d++
         der.innerHTML = d
     } else if (num === 2) {
-        res.innerHTML = 'O computador <br> escolheu  PAPEL, <br> você ganhou!'
+        res.innerHTML = 'O computador escolheu  PAPEL, você ganhou!'
         v++
         vit.innerHTML = v
     } else {
-        res.innerHTML = 'O computador <br> escolheu TESOURA, <br> empatou com você!'
+        res.innerHTML = 'O computador escolheu TESOURA, empatou com você!'
         e++
         emp.innerHTML = e
     }
