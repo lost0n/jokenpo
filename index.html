@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jokenpô</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>JOKENPÔ</h1>
+    <div id="jogo">
+        <div id="box">
+            <div id="card-container">
+                <div class="cards pedra"><img src="img/pedra.png" onclick="pedra()" alt=""><img src="" alt=""></div>
+                <div class="cards papel"><img src="img/papel.png" onclick="papel()" alt=""></div>
+                <div class="cards tesoura"><img src="img/tesoura.png" onclick="tesoura()" alt=""></div>
+            </div>
+            <p class="res"></p>
+        </div>  
+        <div id="placar">
+            <p class="vitoria">Vitorias: <span class="vit"></span></p>
+            <p class="derrota">Derrotas: <span class="der"></span></p>
+            <p class="empate">Empates: <span class="emp"></span></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
